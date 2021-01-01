@@ -1,3 +1,5 @@
+Demo: https://laila-chammaa.github.io/pi-collisions/
+
 compute the digits of Pi using the "collisions" method, thanks to 3Blue1Brown for the idea! [deployed]
 
 based off of this video: https://www.youtube.com/watch?v=HEfHFsfGXjs
