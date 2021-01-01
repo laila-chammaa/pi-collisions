@@ -9,7 +9,7 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, 400);
-  var text = createDiv("How many digits of PI do you want?</br>Please don't go over 8 :(")
+  var text = createDiv("How many digits of PI do you want? This will change the mass of the second block to 100 raised to the d-1 powers</br>Please don't go over 8 :(")
   text.style('margin-bottom', '20px')
   text.style('margin-top', '20px')
   input = createInput(1);
@@ -24,7 +24,7 @@ function setup() {
 function init(digits) {
   block1 = new Block(100, 20, 0, 1);
   const m2 = pow(100, digits - 1);
-  block2 = new Block(300, 150, -3/timeSteps, m2);
+  block2 = new Block(300, 20*pow(digits,1.2), -3/timeSteps, m2);
   wall = new Block(0, 0, 0);
   count = 0;
 }

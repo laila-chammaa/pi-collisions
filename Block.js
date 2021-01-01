@@ -32,7 +32,7 @@ class Block {
     }
 
     show() {
-        fill(255,0,0)
+        fill(160,0,200)
         rect(this.x, this.y, this.w, this.w)
     }
 }
