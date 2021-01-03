@@ -2,7 +2,7 @@ Demo: https://laila-chammaa.github.io/pi-collisions/
 
 compute the digits of Pi using the "collisions" method, thanks to 3Blue1Brown for the idea! [deployed]
 
-based off of this video: https://www.youtube.com/watch?v=HEfHFsfGXjs
+based off of this video (thanks to 3Blue1Brown for the idea!): https://www.youtube.com/watch?v=HEfHFsfGXjs
 
 
 There are two balls, A and B. Ball A has a larger mass and is initially moving. It collides with ball B such that ball B speeds up and ball A slows down just a little bit (this is a perfectly elastic collision). After this, ball B starts moving toward the wall and eventually bounces off it back toward ball A for another collision. This continues until ball A is moving away from the wall instead of toward it, and there are no longer any collisions.
